@@ -26,6 +26,10 @@ const sidebarSections = [
       { id: "server-lookup", label: "Server Lookup" },
       { id: "vanity-checker", label: "Vanity Checker" },
       { id: "asset-stealer", label: "Asset Stealer" },
+      { id: "snowflake-decoder", label: "Snowflake Decoder" },
+      { id: "gradient-finder", label: "Gradient Finder" },
+      { id: "markdown-cheatsheet", label: "Markdown Cheatsheet" },
+      { id: "asset-compressor", label: "Asset Compressor" },
     ],
   },
 ];
