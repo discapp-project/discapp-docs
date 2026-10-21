@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import Link from 'next/link';
-import { ChevronRight, ExternalLink, Search } from 'lucide-react';
+import { ChevronRight, ExternalLink, Search, BookText } from 'lucide-react';
 import { Suspense } from 'react';
 
 const sidebarSections = [
@@ -117,12 +117,12 @@ async function DocContent({ params }: { params: Promise<{ slug: string }> }) {
 export default function DocPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-[#111214] text-zinc-300 flex flex-col font-sans">
-      <header className="border-b border-zinc-800/80 bg-[#111214] sticky top-0 z-50 h-14 flex items-center justify-between px-4 md:px-6">
-        <div className="flex items-center gap-4">
-          <Link href="/" className="font-extrabold tracking-wider text-[#acf6c8] text-base">
-            DISCAPP
-          </Link>
-        </div>
+      <header className="border-b border-zinc-800/80 bg-[#111214] h-14 flex items-center justify-between px-6">
+        <Link href="/" className="hover:opacity-80 transition-opacity">
+          <span className="font-extrabold tracking-wider text-[#acf6c8] text-base">
+            <BookText className="w-4 h-4 inline-block mr-1.5"/> DISCAPP DOCS
+          </span>
+        </Link>
 
         <div className="relative w-64 hidden sm:block">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />

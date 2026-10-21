@@ -11,7 +11,7 @@ export default function LandingPage() {
         </span>
   
         <div className="flex items-center gap-4">
-          <a href="https://discapp.org" target="_blank" rel="noreferrer" className="text-xs font-medium text-zinc-400 hover:text-[#acf6c8] transition flex items-center gap-1">
+          <a href="https://discord.gg/ymc3Ba4qk9" target="_blank" rel="noreferrer" className="text-xs font-medium text-zinc-400 hover:text-[#acf6c8] transition flex items-center gap-1">
             Join the Community
           </a>
           <a href="https://discapp.org" target="_blank" rel="noreferrer" className="text-xs font-medium text-zinc-400 hover:text-[#acf6c8] transition flex items-center gap-1">
@@ -39,7 +39,7 @@ export default function LandingPage() {
           </Link>
 
           <Link 
-            href="/docs/about-us" 
+            href="https://github.com/discapp-project/discapp-docs" 
             className="px-5 py-2.5 bg-[#acf6c8] text-[#111214] font-semibold text-sm rounded-md hover:opacity-90 transition flex items-center gap-2"
           >
             Contribute <ExternalLink className="w-4 h-4" />
