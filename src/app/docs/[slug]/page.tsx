@@ -14,6 +14,7 @@ const sidebarSections = [
       { id: "about-us", label: "About Us" },
       { id: "frequently-asked-questions", label: "Frequently Asked Questions" },
       { id: "contact-us", label: "Contact Us" },
+      { id: "contributors", label: "Contributors" },
     ],
   },
   {
@@ -35,6 +36,11 @@ const sidebarSections = [
       { id: "permission-calculator", label: "Permission Calculator" },
       { id: "font-generator", label: "Font Generator" },
       { id: "space-generator", label: "Space Generator" },
+      { id: "automod-decoder", label: "Automod Decoder" },
+      { id: "automod-tester", label: "Automod Tester" },
+      { id: "regex-creator", label: "Regex Creator" },
+      { id: "json-formatter", label: "Json Formatter" },
+      { id: "ansi-builder", label: "Ansi Builder" },
     ],
   },
 ];
