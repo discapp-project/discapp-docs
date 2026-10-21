@@ -30,6 +30,11 @@ const sidebarSections = [
       { id: "gradient-finder", label: "Gradient Finder" },
       { id: "markdown-cheatsheet", label: "Markdown Cheatsheet" },
       { id: "asset-compressor", label: "Asset Compressor" },
+      { id: "soundboard-studio", label: "Soundboard Studio" },
+      { id: "asset-resizer", label: "Asset Resizer" },
+      { id: "permission-calculator", label: "Permission Calculator" },
+      { id: "font-generator", label: "Font Generator" },
+      { id: "space-generator", label: "Space Generator" },
     ],
   },
 ];
