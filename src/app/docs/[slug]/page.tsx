@@ -21,6 +21,11 @@ const sidebarSections = [
     items: [
       { id: "webhook-builder", label: "Webhook Builder" },
       { id: "automod-library", label: "Automod Library" },
+      { id: "role-icon-builder", label: "Role Icon Builder" },
+      { id: "user-lookup", label: "User Lookup" },
+      { id: "server-lookup", label: "Server Lookup" },
+      { id: "vanity-checker", label: "Vanity Checker" },
+      { id: "asset-stealer", label: "Asset Stealer" },
     ],
   },
 ];
