@@ -38,7 +38,7 @@ jobs:
               embeds: [{
                 title: $title,
                 description: ("Repository: [" + $repo + "](https://github.com/" + $repo + ")\nBranch: `" + $branch + "`\nAuthor: [" + $actor + "](https://github.com/" + $actor + ")\n\n[View Commit](" + $commit_url + ")"),
-                color: 5793266
+                color: e67e22
               }]
             }' | curl -H "Content-Type: application/json" -d @- "$WEBHOOK_URL"
 
@@ -67,7 +67,7 @@ jobs:
               embeds: [{
                 title: $title,
                 description: ("[" + $actor + "](https://github.com/" + $actor + ") just starred [" + $repo + "](https://github.com/" + $repo + ")!\n\nTotal Stars: **" + $stars + "**"),
-                color: 5793266
+                color: e67e22
               }]
             }' | curl -H "Content-Type: application/json" -d @- "$WEBHOOK_URL"
 
@@ -95,7 +95,7 @@ jobs:
               embeds: [{
                 title: $title,
                 description: ("[" + $actor + "](https://github.com/" + $actor + ") has forked [" + $repo + "](https://github.com/" + $repo + ")!"),
-                color: 5793266
+                color: e67e22
               }]
             }' | curl -H "Content-Type: application/json" -d @- "$WEBHOOK_URL"
 
@@ -128,6 +128,6 @@ jobs:
               embeds: [{
                 title: $title,
                 description: ("**Title:** " + $pr_title + "\n**Author:** [" + $actor + "](https://github.com/" + $actor + ")\n\n" + $pr_body + "\n\n[View Pull Request](" + $pr_url + ")"),
-                color: 5793266
+                color: e67e22
               }]
             }' | curl -H "Content-Type: application/json" -d @- "$WEBHOOK_URL"
