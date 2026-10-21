@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import Link from 'next/link';
-import { ChevronRight, ExternalLink, Search, BookText } from 'lucide-react';
+import { ChevronRight, ExternalLink, Search, BookText, ArrowLeft } from 'lucide-react';
 import { Suspense } from 'react';
 
 const sidebarSections = [
@@ -12,6 +12,15 @@ const sidebarSections = [
     title: "DISCAPP",
     items: [
       { id: "about-us", label: "About Us" },
+      { id: "frequently-asked-questions", label: "Frequently Asked Questions" },
+      { id: "contact-us", label: "Contact Us" },
+    ],
+  },
+  {
+    title: "Guides",
+    items: [
+      { id: "webhook-builder", label: "Webhook Builder" },
+      { id: "automod-library", label: "Automod Library" },
     ],
   },
 ];
@@ -120,7 +129,7 @@ export default function DocPage({ params }: PageProps) {
       <header className="border-b border-zinc-800/80 bg-[#111214] h-14 flex items-center justify-between px-6">
         <Link href="/" className="hover:opacity-80 transition-opacity">
           <span className="font-extrabold tracking-wider text-[#acf6c8] text-base">
-            <BookText className="w-4 h-4 inline-block mr-1.5"/> DISCAPP DOCS
+            <ArrowLeft className="w-4 h-4 inline-block mr-1.5"/> Back Home
           </span>
         </Link>
 
