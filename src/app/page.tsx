@@ -39,7 +39,7 @@ export default function LandingPage() {
           </Link>
 
           <Link 
-            href="https://github.com/discapp-project/discapp-docs" 
+            href="https://github.com/discapp-project/docs" 
             className="px-5 py-2.5 bg-[#acf6c8] text-[#111214] font-semibold text-sm rounded-md hover:opacity-90 transition flex items-center gap-2"
           >
             Contribute <ExternalLink className="w-4 h-4" />
